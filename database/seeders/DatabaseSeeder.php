@@ -51,6 +51,7 @@ class DatabaseSeeder extends Seeder
             'role'              => 'USER',
         ]);
 
+        $this->call(MenuSeeder::class);
         // TipeKamar::create([
         //     'nama' => 'Reguler',
         //     'harga' => 270000,

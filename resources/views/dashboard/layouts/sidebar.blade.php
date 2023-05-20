@@ -61,6 +61,18 @@
           Booking Kamar
         </a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link {{Request::is('resepsionis/menu') ? 'active' : ''}}" href="{{url('resepsionis/menu')}}">
+          <span data-feather="list" class="align-text-bottom"></span>
+          Menu Restoran
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {{Request::is('resepsionis/restaurant-transaksi') ? 'active' : ''}}" href="{{url('resepsionis/restaurant-transaksi')}}">
+          <span data-feather="list" class="align-text-bottom"></span>
+          Transaksi Restoran
+        </a>
+      </li>
     </ul>
     @endcan
   </div>
