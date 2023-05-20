@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="/css/icomoon.css">
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>Hotel VLOYVE | {{ $title }}</title>
+    <title>Wikrama Hotel | {{ $title }}</title>
 </head>
 
 <body>

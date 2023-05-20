@@ -8,9 +8,9 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Home</a>
-                <a class="nav-link {{ ($title === "About") ? 'active' : '' }}" href="/about">Facillity</a>
-                <a class="nav-link {{ ($title === "Kamar") ? 'active' : '' }}" href="/tipeKamar">Room</a>
+                <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Beranda</a>
+                <a class="nav-link {{ ($title === "Kamar") ? 'active' : '' }}" href="/tipeKamar">Kamar</a>
+                <a class="nav-link {{ ($title === "Restaurant") ? 'active' : '' }}" href="/restaurant">Restoran</a>
                 <a class="nav-link {{ ($title === "Contact") ? 'active' : '' }}" href="/kontak">Kontak</a>
             </div>
 

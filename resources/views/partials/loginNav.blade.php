@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar"">
     <div class="container">
-        <a class="navbar-brand" href="/">HOTEL <br><p>Insitu Wikrama</p></a>
+        <a class="navbar-brand" href="/"><p>Wikrama Hotel</p></a>
         <button class="navbar-toggler" type="button" data-target="#ftco-nav" aria-controls="ftco-nav" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span>
@@ -8,9 +8,9 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
             <div class="navbar-nav ml-auto text-light">
-                <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Home</a>
-                <a class="nav-link {{ ($title === "About") ? 'active' : '' }}" href="/about">Facillity</a>
-                <a class="nav-link {{ ($title === "Kamar") ? 'active' : '' }}" href="/tipeKamar">Room</a>
+                <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Beranda</a>
+                <a class="nav-link {{ ($title === "Kamar") ? 'active' : '' }}" href="/tipeKamar">Kamar</a>
+                <a class="nav-link {{ ($title === "Restaurant") ? 'active' : '' }}" href="/restaurant">Restoran</a>
                 <a class="nav-link {{ ($title === "Contact") ? 'active' : '' }}" href="/kontak">Kontak</a>
             </div>
 

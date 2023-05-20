@@ -47,14 +47,14 @@ button:hover {
                             <div class="card-body p-md-5 text-black">
                                 <form action="/register" method="POST">
                                 @csrf
-                                    <h3 class="mb-5 text-uppercase">Registration form</h3>
+                                    <h3 class="mb-5 text-uppercase">Form Registrasi</h3>
 
                                     <div class="row">
                                     <div class="col-md-6 mb-4">
                                         <div class="form-outline">
-                                        <input style="border-radius: 1rem;" type="text" name="nama" id="nama" 
+                                        <input style="border-radius: 1rem;" type="text" name="nama" id="nama"
                                         placeholder="nama" class="form-control form-control-lg @error('nama') is-invalid @enderror" required value="{{ old('nama') }}">
-                                        <label class="form-label" for="nama">Your Name</label>
+                                        <label class="form-label" for="nama">Nama</label>
                                         @error('nama')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -64,7 +64,7 @@ button:hover {
                                     </div>
                                     <div class="col-md-6 mb-4">
                                         <div class="form-outline">
-                                        <input style="border-radius: 1rem;" type="text" id="username" name="username" class="form-control form-control-lg @error('username') is-invalid @enderror" 
+                                        <input style="border-radius: 1rem;" type="text" id="username" name="username" class="form-control form-control-lg @error('username') is-invalid @enderror"
                                         placeholder="username" required value="{{ old('nama') }}"/>
                                         <label class="form-label" for="username">Username</label>
                                         @error('username')
@@ -77,9 +77,9 @@ button:hover {
                                     </div>
 
                                     <div class="form-outline mb-4">
-                                    <input style="border-radius: 1rem;" type="email" id="email" name="email" class="form-control form-control-lg @error('email') is-invalid @enderror" 
+                                    <input style="border-radius: 1rem;" type="email" id="email" name="email" class="form-control form-control-lg @error('email') is-invalid @enderror"
                                     placeholder="name@example.com" required value="{{ old('email') }}"/>
-                                    <label class="form-label" for="email">Your Email</label>
+                                    <label class="form-label" for="email">Email</label>
                                     @error('email')
                                     <div class="invalid-feedback">
                                         {{ $message }}
@@ -88,7 +88,7 @@ button:hover {
                                     </div>
 
                                     <div class="form-outline mb-4">
-                                    <input style="border-radius: 1rem;" type="password" id="password" name="password" class="form-control form-control-lg @error('password') is-invalid @enderror" 
+                                    <input style="border-radius: 1rem;" type="password" id="password" name="password" class="form-control form-control-lg @error('password') is-invalid @enderror"
                                     placeholder="Password" required/>
                                     <label class="form-label" for="password">Password</label>
                                     @error('password')
@@ -111,17 +111,11 @@ button:hover {
                                         @enderror
                                     </div>
 
-                                    <div class="form-outline mb-4" style="margin-left: 20px;">
-                                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
-                                    <label class="form-check-label" for="form2Example3g">
-                                        I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
-                                    </label>
-                                    </div>
 
-                                    <center><button type="submit">Register</button></center>
+                                    <center><button type="submit">Daftar</button></center>
 
-                                    <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="/login"
-                                    class="fw-bold text-body"><u>Login here</u></a></p>
+                                    <p class="text-center text-muted mt-5 mb-0">Sudah Punya Akun? <a href="/login"
+                                    class="fw-bold text-body"><u>Login Disini</u></a></p>
                                 </form>
                             </div>
                             </div>
@@ -146,7 +140,7 @@ button:hover {
                 @csrf
 
                 <div class="form-outline mb-4">
-                    <input type="text" name="nama" id="nama" 
+                    <input type="text" name="nama" id="nama"
                     class="form-control form-control-lg rounded-top @error('nama') is-invalid @enderror" required value="{{ old('nama') }}">
                     <label class="form-label" for="nama">Your Name</label>
                     @error('nama')
@@ -157,7 +151,7 @@ button:hover {
                 </div>
 
                 <div class="form-outline mb-4">
-                    <input type="email" id="username" name="username" class="form-control form-control-lg @error('username') is-invalid @enderror" 
+                    <input type="email" id="username" name="username" class="form-control form-control-lg @error('username') is-invalid @enderror"
                     required value="{{ old('nama') }}"/>
                     <label class="form-label" for="username">Username</label>
                     @error('username')
@@ -168,7 +162,7 @@ button:hover {
                 </div>
 
                 <div class="form-outline mb-4">
-                    <input type="password" id="email" name="email" class="form-control form-control-lg @error('email') is-invalid @enderror" 
+                    <input type="password" id="email" name="email" class="form-control form-control-lg @error('email') is-invalid @enderror"
                     placeholder="name@example.com" required value="{{ old('email') }}"/>
                     <label class="form-label" for="email">Your Email</label>
                     @error('email')
@@ -179,7 +173,7 @@ button:hover {
                 </div>
 
                 <div class="form-outline mb-4">
-                  <input type="password" id="password" name="password" class="form-control form-control-lg rounded-bottom @error('password') is-invalid @enderror" 
+                  <input type="password" id="password" name="password" class="form-control form-control-lg rounded-bottom @error('password') is-invalid @enderror"
                   placeholder="Password" required/>
                   <label class="form-label" for="password">Password</label>
                   @error('password')

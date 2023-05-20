@@ -39,7 +39,7 @@
                                         <span class="h1 fw-bold mb-0">Hotel Insitu Wikrama</span>
                                     </div>
 
-                                    <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account
+                                    <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Masuk ke Akun Anda
                                     </h5>
 
                                     <div class="form-outline mb-4">
@@ -47,7 +47,7 @@
                                             class="form-control form-control-lg @error('email') is-invalid @enderror"
                                             name="email" placeholder="name@example.com" required autofocus
                                             value="{{ old('email') }}">
-                                        <label class="form-label" for="email">Email address</label>
+                                        <label class="form-label" for="email">Email</label>
                                         @error('email')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -71,10 +71,8 @@
                                         <button style="border-radius: 1rem;" class="btn btn-dark btn-lg btn-block" type="submit">Login</button>
                                     </div>
 
-                                    <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a
-                                            href="/register" style="color: #393f81;">Register here</a></p>
-                                    <a href="#!" class="small text-muted">Terms of use.</a>
-                                    <a href="#!" class="small text-muted">Privacy policy</a>
+                                    <p class="mb-5 pb-lg-2" style="color: #393f81;">Belum Punya Akun? <a
+                                        href="/register" style="color: #393f81;">Daftar Disini</a></p>
                                 </form>
 
                             </div>

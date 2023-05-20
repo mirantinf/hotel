@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar"">
     <div class="container">
-        <a class="navbar-brand" href="/">Hotel Wikrama</p></a>
+        <a class="navbar-brand" href="/">Wikrama Hotel</p></a>
         <button class="navbar-toggler" type="button" data-target="#ftco-nav" aria-controls="ftco-nav" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span>
@@ -8,24 +8,10 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Home</a>
-                <a class="nav-link {{ ($title === "Facility") ? 'active' : '' }}" href="/about">Facillity</a>
-                <a class="nav-link {{ ($title === "Kamar") ? 'active' : '' }}" href="/tipeKamar">Room</a>
+                <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Beranda</a>
+                <a class="nav-link {{ ($title === "Kamar") ? 'active' : '' }}" href="/tipeKamar">Kamar</a>
+                <a class="nav-link {{ ($title === "Restaurant") ? 'active' : '' }}" href="/restaurant">Restoran</a>
                 <a class="nav-link {{ ($title === "Contact") ? 'active' : '' }}" href="/kontak">Kontak</a>
-                <a class="nav-link {{ ($title === "Restaurant") ? 'active' : '' }}" href="/restaurant">Restaurant</a>
-            </div>
-
-            <div class="navbar-nav dropdown ms-auto">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 {{ Config::get('languages')[App::getLocale()] }}
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                @foreach (Config::get('languages') as $lang => $language)
-                    @if ($lang != App::getLocale())
-                            <a class="dropdown-item" href="{{ route('lang.switch', $lang) }}"> {{$language}}</a>
-                    @endif
-                @endforeach
-                </div>
             </div>
 
             @auth

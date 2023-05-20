@@ -9,7 +9,7 @@
     }
 </style>
 
-<h1 class="text-center" style="margin-top: 30px;">My Booking Lists</h1>
+<h1 class="text-center" style="margin-top: 30px;">List Pemesanan Saya</h1>
 <h3 class="text-center">{{ $user->nama }}</h3>
 
 @if (session()->has('success'))

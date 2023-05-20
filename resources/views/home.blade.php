@@ -19,8 +19,8 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
 	          <div class="row no-gutters slider-text align-items-center justify-content-end">
 	          <div class="col-md-6 ftco-animate">
 	          	<div class="text">
-	          		<h2>More than a hotel... an experience</h2>
-		            <h1 class="mb-3">Hotel for the whole family, all year round.</h1>
+	          		<h2>Lebih dari hotel</h2>
+		            <h1 class="mb-3">Hotel yang nyaman, bagi para tamu .</h1>
 	            </div>
 	          </div>
 	        </div>
@@ -33,8 +33,8 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
 	          <div class="row no-gutters slider-text align-items-center justify-content-end">
 	          <div class="col-md-6 ftco-animate">
 	          	<div class="text">
-	          		<h2>Harbor Lights Hotel &amp; Resort</h2>
-		            <h1 class="mb-3">It feels like staying in your own home.</h1>
+	          		<h2> Insitu Wikrama Hotel</h2>
+		            <h1 class="mb-3">Seperti Rumah Sendiri.</h1>
 	            </div>
 	          </div>
 	        </div>
@@ -48,8 +48,8 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-          	<span class="subheading">Welcome to Insitu Wikrama Hotel</span>
-            <h2 class="mb-4">You'll Never Want To Leave</h2>
+          	<span class="subheading">Selamat datang di Insitu Wikrama Hotel</span>
+            <h2 class="mb-4">Lebih Dari Sekedar Hotel</h2>
           </div>
         </div>
         <div class="row d-flex">
@@ -61,7 +61,7 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
               	</div>
               </div>
               <div class="media-body">
-                <h3 class="heading mb-3">Friendly Service</h3>
+                <h3 class="heading mb-3">Layanan yang Ramah</h3>
               </div>
             </div>
           </div>
@@ -73,31 +73,7 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
               	</div>
               </div>
               <div class="media-body">
-                <h3 class="heading mb-3">Get Breakfast</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-md px-md-1 d-flex align-sel Searchf-stretch ftco-animate">
-            <div class="media block-6 services py-4 d-block text-center">
-              <div class="d-flex justify-content-center">
-              	<div class="icon d-flex align-items-center justify-content-center">
-              		<span class="flaticon-car"></span>
-              	</div>
-              </div>
-              <div class="media-body">
-                <h3 class="heading mb-3">Transfer Services</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-md px-md-1 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services py-4 d-block text-center">
-              <div class="d-flex justify-content-center">
-              	<div class="icon d-flex align-items-center justify-content-center">
-              		<span class="flaticon-spa"></span>
-              	</div>
-              </div>
-              <div class="media-body">
-                <h3 class="heading mb-3">Suits &amp; SPA</h3>
+                <h3 class="heading mb-3">Restoran</h3>
               </div>
             </div>
           </div>
@@ -109,7 +85,7 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
               	</div>
               </div>
               <div class="media-body">
-                <h3 class="heading mb-3">Cozy Rooms</h3>
+                <h3 class="heading mb-3">Kamar yang Nyaman</h3>
               </div>
             </div>
           </div>
@@ -126,11 +102,11 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
 					</div>
 					<div class="col-md-5 wrap-about pb-md-3 ftco-animate pr-md-5 pb-md-5 pt-md-4">
 	          <div class="heading-section mb-4 my-5 my-md-0">
-	          	<span class="subheading">About Harbor Lights Hotel</span>
-	            <h2 class="mb-4">Harbor Lights Hotel the Most Recommended Hotel All Over the World</h2>
+	          	<span class="subheading">Tentang Insitu Wikrama Hotel</span>
+	            <h2 class="mb-4">Wikrama Hotel Merupakan Hotel yang Nyaman Bagi Para Tamu</h2>
 	          </div>
-	          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-	          <p><a href="#" class="btn btn-secondary rounded">Reserve Your Room Now</a></p>
+	          <p></p>
+	          <p><a href="/tipeKamar" class="btn btn-secondary rounded">Pesan Kamar</a></p>
 					</div>
 				</div>
 			</div>
@@ -145,21 +121,21 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
           <div class="col-md-7 py-5 pl-md-5">
           	<div class="py-md-5">
 	          	<div class="heading-section ftco-animate mb-4">
-	          		<span class="subheading">Testimony</span>
-			          <h2 class="mb-0">Happy Customer</h2>
+	          		<span class="subheading">Testimoni</span>
+			          <h2 class="mb-0">Pelanggan</h2>
 			        </div>
 	            <div class="carousel-testimony owl-carousel ftco-animate">
 	              <div class="item">
 	                <div class="testimony-wrap pb-4">
 	                  <div class="text">
-	                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+	                    <p class="mb-4">Bagus Nyaman Lengkap Bagus Nyaman Lengkap Bagus Nyaman Lengkap Bagus Nyaman Lengkap.</p>
 	                  </div>
 	                  <div class="d-flex">
 		                  <div class="user-img" style="background-image: url(images/person_1.jpg)">
 		                  </div>
 		                  <div class="pos ml-3">
-		                  	<p class="name">Gerald Hodson</p>
-		                    <span class="position">Businessman</span>
+		                  	<p class="name">Jaemin</p>
+		                    <span class="position">Kepsek SD A</span>
 		                  </div>
 		                </div>
 	                </div>
@@ -167,14 +143,14 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
 	              <div class="item">
 	                <div class="testimony-wrap pb-4">
 	                  <div class="text">
-	                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+	                    <p class="mb-4">Bagus Nyaman Lengkap Bagus Nyaman Lengkap Bagus Nyaman Lengkap Bagus Nyaman Lengkap.</p>
 	                  </div>
 	                  <div class="d-flex">
 		                  <div class="user-img" style="background-image: url(images/person_2.jpg)">
 		                  </div>
 		                  <div class="pos ml-3">
-		                  	<p class="name">Gerald Hodson</p>
-		                    <span class="position">Businessman</span>
+		                  	<p class="name">Jaemin</p>
+		                    <span class="position">Kepsek SD A</span>
 		                  </div>
 		                </div>
 	                </div>
@@ -182,14 +158,14 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
 	              <div class="item">
 	                <div class="testimony-wrap pb-4">
 	                  <div class="text">
-	                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+	                    <p class="mb-4">Bagus Nyaman Lengkap Bagus Nyaman Lengkap Bagus Nyaman Lengkap Bagus Nyaman Lengkap.</p>
 	                  </div>
 	                  <div class="d-flex">
 		                  <div class="user-img" style="background-image: url(images/person_3.jpg)">
 		                  </div>
 		                  <div class="pos ml-3">
-		                  	<p class="name">Gerald Hodson</p>
-		                    <span class="position">Businessman</span>
+		                  	<p class="name">Jaemin</p>
+		                    <span class="position">Kepsek SD A</span>
 		                  </div>
 		                </div>
 	                </div>
@@ -197,14 +173,14 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
 	              <div class="item">
 	                <div class="testimony-wrap pb-4">
 	                  <div class="text">
-	                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+	                    <p class="mb-4">Bagus Nyaman Lengkap Bagus Nyaman Lengkap Bagus Nyaman Lengkap Bagus Nyaman Lengkap</p>
 	                  </div>
 	                  <div class="d-flex">
 		                  <div class="user-img" style="background-image: url(images/person_4.jpg)">
 		                  </div>
 		                  <div class="pos ml-3">
-		                  	<p class="name">Gerald Hodson</p>
-		                    <span class="position">Businessman</span>
+		                  	<p class="name">Jaemin</p>
+		                    <span class="position">Kepsek SD A</span>
 		                  </div>
 		                </div>
 	                </div>
@@ -215,105 +191,6 @@ home maka tiap akses home bakal muncul trs flash message nya --}}
         </div>
       </div>
     </section>
-
-    <section class="ftco-section ftco-no-pb ftco-room">
-    	<div class="container-fluid px-0">
-    		<div class="row no-gutters justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-          	<span class="subheading">Harbor Lights Rooms</span>
-            <h2 class="mb-4">Hotel Master's Rooms</h2>
-          </div>
-        </div>
-    		<div class="row no-gutters">
-    			<div class="col-lg-6">
-    				<div class="room-wrap d-md-flex ftco-animate">
-    					<a href="#" class="img" style="background-image: url(images/room-6.jpg);"></a>
-    					<div class="half left-arrow d-flex align-items-center">
-    						<div class="text p-4 text-center">
-    							<p class="star mb-0"><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span></p>
-    							<p class="mb-0"><span class="price mr-1">$120.00</span> <span class="per">per night</span></p>
-	    						<h3 class="mb-3"><a href="rooms.html">King Room</a></h3>
-	    						<p class="pt-1"><a href="room-single.html" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-lg-6">
-    				<div class="room-wrap d-md-flex ftco-animate">
-    					<a href="#" class="img" style="background-image: url(images/room-1.jpg);"></a>
-    					<div class="half left-arrow d-flex align-items-center">
-    						<div class="text p-4 text-center">
-    							<p class="star mb-0"><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span></p>
-    							<p class="mb-0"><span class="price mr-1">$120.00</span> <span class="per">per night</span></p>
-	    						<h3 class="mb-3"><a href="rooms.html">Suite Room</a></h3>
-	    						<p class="pt-1"><a href="room-single.html" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-
-    			<div class="col-lg-6">
-    				<div class="room-wrap d-md-flex ftco-animate">
-    					<a href="#" class="img order-md-last" style="background-image: url(images/room-2.jpg);"></a>
-    					<div class="half right-arrow d-flex align-items-center">
-    						<div class="text p-4 text-center">
-    							<p class="star mb-0"><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span></p>
-    							<p class="mb-0"><span class="price mr-1">$120.00</span> <span class="per">per night</span></p>
-	    						<h3 class="mb-3"><a href="rooms.html">Family Room</a></h3>
-	    						<p class="pt-1"><a href="room-single.html" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-lg-6">
-    				<div class="room-wrap d-md-flex ftco-animate">
-    					<a href="#" class="img order-md-last" style="background-image: url(images/room-3.jpg);"></a>
-    					<div class="half right-arrow d-flex align-items-center">
-    						<div class="text p-4 text-center">
-    							<p class="star mb-0"><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span></p>
-    							<p class="mb-0"><span class="price mr-1">$120.00</span> <span class="per">per night</span></p>
-	    						<h3 class="mb-3"><a href="rooms.html">Deluxe Room</a></h3>
-	    						<p class="pt-1"><a href="room-single.html" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-
-    			<div class="col-lg-6">
-    				<div class="room-wrap d-md-flex ftco-animate">
-    					<a href="#" class="img" style="background-image: url(images/room-4.jpg);"></a>
-    					<div class="half left-arrow d-flex align-items-center">
-    						<div class="text p-4 text-center">
-    							<p class="star mb-0"><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span></p>
-    							<p class="mb-0"><span class="price mr-1">$120.00</span> <span class="per">per night</span></p>
-	    						<h3 class="mb-3"><a href="rooms.html">Luxury Room</a></h3>
-	    						<p class="pt-1"><a href="room-single.html" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-lg-6">
-    				<div class="room-wrap d-md-flex ftco-animate">
-    					<a href="#" class="img" style="background-image: url(images/room-5.jpg);"></a>
-    					<div class="half left-arrow d-flex align-items-center">
-    						<div class="text p-4 text-center">
-    							<p class="star mb-0"><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span><span class="ion-ios-star"></span></p>
-    							<p class="mb-0"><span class="price mr-1">$120.00</span> <span class="per">per night</span></p>
-	    						<h3 class="mb-3"><a href="rooms.html">Superior Room</a></h3>
-	    						<p class="pt-1"><a href="room-single.html" class="btn-custom px-3 py-2 rounded">View Details <span class="icon-long-arrow-right"></span></a></p>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-
-
-
-
-
 
 
 
