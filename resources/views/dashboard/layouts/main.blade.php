@@ -39,7 +39,12 @@
     <script src="/vendor/js/helpers.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-
+    <style>
+        .active {
+            color: #296ba4 !important;
+        }
+    </style>
+    @yield('css')
 </head>
 
 <body>

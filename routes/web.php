@@ -1,19 +1,21 @@
 <?php
 
-use App\Http\Controllers\Admin\AdminDashboardController;
-use App\Http\Controllers\Admin\BarangKamarController;
-use App\Http\Controllers\Admin\FkamarController;
-use App\Http\Controllers\Admin\TipeKamarController;
-use App\Http\Controllers\Admin\LaporanController;
-use App\Http\Controllers\KamarListController;
+use App\Models\Menu;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
-use App\Http\Controllers\Resepsionis\BookingListController;
-use App\Http\Controllers\Resepsionis\LaporanRepController;
-use App\Http\Controllers\Tamu\BookingController;
 use App\Http\Controllers\Tamu\MyBookingList;
-use Illuminate\Support\Facades\App;
+use App\Http\Controllers\KamarListController;
+use App\Http\Controllers\Admin\FkamarController;
+use App\Http\Controllers\Tamu\BookingController;
+use App\Http\Controllers\Admin\LaporanController;
+use App\Http\Controllers\Admin\TipeKamarController;
+use App\Http\Controllers\Admin\BarangKamarController;
+use App\Http\Controllers\Admin\AdminDashboardController;
+use App\Http\Controllers\Resepsionis\LaporanRepController;
+use App\Http\Controllers\Resepsionis\RestaurantController;
+use App\Http\Controllers\Resepsionis\BookingListController;
 
 
 /*
@@ -45,7 +47,11 @@ Route::get('/kontak', function () {
     ]);
 });
 
-
+Route::get('restaurant', function(){
+    $menus = Menu::orderBy('nama_menu')->get();
+    $title = 'Restaurant';
+    return view('restaurant', compact('menus', 'title'));
+});
 Route::get('/tipeKamar', [KamarListController::class, 'index']);
 Route::get('/tipeKamar/{id:id}', [KamarListController::class, 'show']);
 
@@ -75,6 +81,17 @@ Route::post('/resepsionis/checkin', [BookingListController::class, 'checkin'])->
 Route::post('/resepsionis/checkout', [BookingListController::class, 'checkout'])->middleware(['auth', 'resepsionis']);
 
 Route::get('/resepsionis/laporan', [LaporanRepController::class, 'index'])->middleware(['auth', 'resepsionis']);
+
+//restaurant
+Route::get('/resepsionis/menu', [RestaurantController::class, 'menu'])->name('menu')->middleware(['auth', 'resepsionis']);
+Route::get('/resepsionis/menu/{id}/detail', [RestaurantController::class, 'menuDetail'])->name('menu.detail')->middleware(['auth', 'resepsionis']);
+Route::put('/resepsionis/menu/{id}/update', [RestaurantController::class, 'updateMenu'])->name('menu.update')->middleware(['auth', 'resepsionis']);
+
+//transaction
+Route::get('/resepsionis/restaurant-transaksi', [RestaurantController::class, 'transaksi'])->name('transaksi')->middleware(['auth', 'resepsionis']);
+Route::post('/resepsionis/restaurant-transaksi-store', [RestaurantController::class, 'transaksiStore'])->name('transaksi-store')->middleware(['auth', 'resepsionis']);
+Route::put('/resepsionis/restaurant-transaksi-update/{no_transaksi}', [RestaurantController::class, 'transaksiUpdate'])->name('transaksi-update')->middleware(['auth', 'resepsionis']);
+Route::get('/resepsionis/restaurant-transaksi-detail/{no_transaksi}', [RestaurantController::class, 'transaksiDetail'])->name('transaksi-detail')->middleware(['auth', 'resepsionis']);
 
 Route::get('/booking/{id:id}', [BookingController::class, 'createID']);
 Route::post('/booking', [BookingController::class, 'store']);
